@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: Test
+ * File: Test.var
+ * Author: wagnero
+ * Created: May 11, 2011
+ ********************************************************************
+ * Local variables of program Test
+ ********************************************************************)
+VAR
+	EnabEnergy : BOOL;
+	FltMtuRd : ARRAY[0..30] OF USINT;
+	FltMtuWr : ARRAY[0..30] OF USINT;
+	RBTrigDFT : BOOL;
+	TrigDFT : BOOL;
+END_VAR

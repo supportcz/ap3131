@@ -1,0 +1,54 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * File: IoMap.iom
+ * Author: necidj
+ * Created: March 11, 2014
+ ********************************************************************
+ * IO mapping file
+ ********************************************************************)
+VAR_CONFIG
+	Cyclic#1.gAxis04_DrvIf.iLifeCnt AT %IB."8I74xxxxxxx.01P-1".SDC_LifeCnt;
+	Cyclic#1.gAxis04_DrvIf.iDrvOK AT %IX."8I74xxxxxxx.01P-1".ETAD_Input_Bool_02;
+	Cyclic#1.gAxis04_DrvIf.oSetTime AT %QW."8I74xxxxxxx.01P-1".SDC_SetTime;
+	Cyclic#1.gAxis04_DrvIf.oSetPos AT %QW."8I74xxxxxxx.01P-1".LFRD_Output;
+	Cyclic#1.gAxis04_DiDoIf.iLifeCntDriveReady AT %IB."8I74xxxxxxx.01P-1".SDC_LifeCnt;
+	Cyclic#1.gAxis04_DiDoIf.iLifeCntDriveEnable AT %IB."8I74xxxxxxx.01P-1".SDC_LifeCnt;
+	Cyclic#1.gAxis04_DiDoIf.oDriveEnable AT %QX."8I74xxxxxxx.01P-1".CMDD_Output_Bool_00;
+	Cyclic#1.gAxis04_ModuleOk AT %QX."8I74xxxxxxx.01P-1".CMDD_Output_Bool_01;
+	Cyclic#1.gAxis04_ModuleOk AT %QX."8I74xxxxxxx.01P-1".CMDD_Output_Bool_02;
+	Cyclic#1.gAxis04_ModuleOk AT %IX."8I74xxxxxxx.01P-1".ModuleOk;
+	Cyclic#1.gAxis04_DiDoIf.oDriveEnable AT %QX."8I74xxxxxxx.01P-1".CMDD_Output_Bool_03;
+	Cyclic#1.gAxis04_DiDoIf.iDriveReady AT %IX."8I74xxxxxxx.01P-1".ETAD_Input_Bool_02;
+	gAxis04_DrvIf.oBrake AT %QX."8I74xxxxxxx.01P-1".OL1R_Output_Bool_02;
+	gAxis04_EncIf.iActPos AT %IW."X20DC2396".Encoder01;
+	gAxis04_EncIf.iEncOK AT %IX."X20DC2396".ModuleOk;
+	::RdBlock_0:FltMtuRd[1] AT %IB."X20AP3131".RxByte1;
+	::RdBlock_0:FltMtuRd[2] AT %IB."X20AP3131".RxByte2;
+	::RdBlock_0:FltMtuRd[3] AT %IB."X20AP3131".RxByte3;
+	::RdBlock_0:FltMtuRd[4] AT %IB."X20AP3131".RxByte4;
+	::RdBlock_0:FltMtuRd[5] AT %IB."X20AP3131".RxByte5;
+	::RdBlock_0:FltMtuRd[6] AT %IB."X20AP3131".RxByte6;
+	::RdBlock_0:FltMtuRd[7] AT %IB."X20AP3131".RxByte7;
+	::RdBlock_0:FltMtuRd[8] AT %IB."X20AP3131".RxByte8;
+	::RdBlock_0:FltMtuRd[9] AT %IB."X20AP3131".RxByte9;
+	::RdBlock_0:FltMtuRd[10] AT %IB."X20AP3131".RxByte10;
+	::RdBlock_0:FltMtuRd[11] AT %IB."X20AP3131".RxByte11;
+	::RdBlock_0:FltMtuRd[12] AT %IB."X20AP3131".RxByte12;
+	::RdBlock_0:FltMtuRd[13] AT %IB."X20AP3131".RxByte13;
+	::RdBlock_0:FltMtuRd[14] AT %IB."X20AP3131".RxByte14;
+	::RdBlock_0:FltMtuRd[15] AT %IB."X20AP3131".RxByte15;
+	::RdBlock_0:FltMtuRd[16] AT %IB."X20AP3131".RxByte16;
+	::RdBlock_0:FltMtuRd[17] AT %IB."X20AP3131".RxByte17;
+	::RdBlock_0:FltMtuRd[18] AT %IB."X20AP3131".RxByte18;
+	::RdBlock_0:FltMtuRd[19] AT %IB."X20AP3131".RxByte19;
+	::RdBlock_0:FltMtuRd[20] AT %IB."X20AP3131".RxByte20;
+	::RdBlock_0:FltMtuRd[21] AT %IB."X20AP3131".RxByte21;
+	::RdBlock_0:FltMtuRd[22] AT %IB."X20AP3131".RxByte22;
+	::RdBlock_0:RBTrigDFT AT %IX."X20AP3131".RBTrigDFT;
+	::RdBlock_0:TrigDFT AT %QX."X20AP3131".TrigDFT;
+	::RdBlock_0:EnabEnergy AT %QX."X20AP3131".EnabEnergy;
+	RdBlock_0:FltMtuRd[23]  AT %IB."X20AP3131".RxByte23;
+	::RdBlock_0:FltMtuWr[0] AT %QB."X20AP3131".OutputSequence;
+	RdBlock_0:FltMtuRd[0]  AT %IB."X20AP3131".InputSequence;
+END_VAR

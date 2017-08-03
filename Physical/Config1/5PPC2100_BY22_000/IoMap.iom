@@ -1,0 +1,14 @@
+VAR_CONFIG
+	::RdBlock_0:FltMtuRd[1] AT %IB."X20AP3131".RxByte1;
+	::RdBlock_0:FltMtuRd[2] AT %IB."X20AP3131".RxByte2;
+	::RdBlock_0:FltMtuRd[3] AT %IB."X20AP3131".RxByte3;
+	::RdBlock_0:FltMtuRd[4] AT %IB."X20AP3131".RxByte4;
+	::RdBlock_0:FltMtuRd[5] AT %IB."X20AP3131".RxByte5;
+	::RdBlock_0:FltMtuRd[6] AT %IB."X20AP3131".RxByte6;
+	::RdBlock_0:FltMtuRd[7] AT %IB."X20AP3131".RxByte7;
+	::RdBlock_0:RBTrigDFT AT %IX."X20AP3131".RBTrigDFT;
+	::RdBlock_0:TrigDFT AT %QX."X20AP3131".TrigDFT;
+	::RdBlock_0:EnabEnergy AT %QX."X20AP3131".EnabEnergy;
+	::RdBlock_0:FltMtuWr[0] AT %QB."X20AP3131".OutputSequence;
+	RdBlock_0:FltMtuRd[0] AT %IB."X20AP3131".InputSequence;
+END_VAR

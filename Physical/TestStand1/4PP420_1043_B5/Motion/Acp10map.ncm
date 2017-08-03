@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.19.69 SP?>
+<NcMapping NcSwId="Acp10">
+  <NcObject Name="gAxis01" ModuleId="8V1045.00-2" Type="ncAXIS" Channel="1" AcoposSimulation="Standard" InitParameter="gAxis01i" AcoposParameter="gAxis01a" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1045.00-2_ncV_AXIS1" ModuleId="8V1045.00-2" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxis02" ModuleId="8V1045.00-2a" Type="ncAXIS" Channel="1" AcoposSimulation="Standard" InitParameter="gAxis02i" AcoposParameter="gAxis02a" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1045.00-2a_ncV_AXIS1" ModuleId="8V1045.00-2a" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxis03" ModuleId="8V1045.001-2" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxis03i" AcoposParameter="gAxis03a" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1045.001-2_ncV_AXIS1" ModuleId="8V1045.001-2" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxis04" ModuleId="8I74xxxxxxx.01P-1" ModuleAddress="SDC_IF1.ST1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxis04i" AcoposParameter="gAxis04a" Disabled="FALSE" ModuleDisabled="FALSE" />
+</NcMapping>

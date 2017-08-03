@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * File: Global.var
+ * Author: necidj
+ * Created: March 11, 2014
+ ********************************************************************
+ * Global variables of project TestStandBasic
+ ********************************************************************)
+VAR
+	gAxis01 : ACP10AXIS_typ;
+	gAxis02 : ACP10AXIS_typ;
+	gAxis03 : ACP10AXIS_typ;
+	gAxis04 : ACP10AXIS_typ;
+	gAxis04_HW : SdcHwCfg_typ := (0);
+	gAxis04_EncIf : SdcEncIf16_typ := (0);
+	gAxis04_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis04_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis04_ModuleOk : BOOL := 0;
+END_VAR
